@@ -19,3 +19,9 @@ echo "$num1 + $num2 = " . ($num1 + $num2) . "<br>";
 echo "$num1 - $num2 = " . ($num1 - $num2) . "<br>";
 echo "$num1 / $num2 = " . ($num1 / $num2) . "<br>";
 echo "$num1 * $num2 = " . ($num1 * $num2) . "<br>";
+
+echo "<br>";
+
+for ($x = 1; $x <= 10; $x++) {
+    echo "6 * $x = " . (6 * $x) . "<br>";
+}
