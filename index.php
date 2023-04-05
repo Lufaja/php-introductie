@@ -25,3 +25,22 @@ echo "<br>";
 for ($x = 1; $x <= 10; $x++) {
     echo "6 * $x = " . (6 * $x) . "<br>";
 }
+
+echo "<br>";
+
+function tafel($num) {
+    for ($x = 1; $x <= 10; $x++) {
+        echo "$num * $x = " . ($num * $x) . "<br>";
+    }
+}
+
+tafel(6);
+
+echo "<br>";
+
+$tafels = array(3,5,8,12);
+foreach ($tafels as $val){
+    tafel($val);
+    echo "<br>";
+
+}
